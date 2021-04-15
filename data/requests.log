@@ -1,0 +1,17 @@
+[2020-09-19 16:30:34,111] p1 {app.py:37} INFO - Logging is set up.
+[2020-09-19 16:30:34,116] p1 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO -  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2020-09-19 16:30:34,116] p1 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO -  * Restarting with stat
+[2020-09-19 16:30:34,235] p8 {/opt/showclient_app/app.py:37} INFO - Logging is set up.
+[2020-09-19 16:30:34,239] p8 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} WARNING -  * Debugger is active!
+[2020-09-19 16:30:34,240] p8 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO -  * Debugger PIN: 156-789-329
+[2020-09-19 16:32:00,291] p8 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO - 172.16.221.1 - - [19/Sep/2020 16:32:00] "[37mGET / HTTP/1.1[0m" 200 -
+[2020-09-19 16:32:04,778] p8 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO - 172.16.221.1 - - [19/Sep/2020 16:32:04] "[37mGET / HTTP/1.1[0m" 200 -
+[2020-09-19 16:32:07,883] p8 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO - 172.16.221.1 - - [19/Sep/2020 16:32:07] "[37mGET / HTTP/1.1[0m" 200 -
+[2020-09-19 16:33:14,033] p8 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO - 172.16.221.1 - - [19/Sep/2020 16:33:14] "[37mGET / HTTP/1.1[0m" 200 -
+[2020-09-19 18:09:56,650] p8 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO - 172.16.221.1 - - [19/Sep/2020 18:09:56] "[37mGET / HTTP/1.1[0m" 200 -
+[2020-09-19 18:09:57,359] p8 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO - 172.16.221.1 - - [19/Sep/2020 18:09:57] "[37mGET / HTTP/1.1[0m" 200 -
+[2020-09-19 18:10:40,989] p8 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO - 172.16.221.1 - - [19/Sep/2020 18:10:40] "[37mGET / HTTP/1.1[0m" 200 -
+[2020-09-19 18:10:41,459] p8 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO - 172.16.221.1 - - [19/Sep/2020 18:10:41] "[37mGET / HTTP/1.1[0m" 200 -
+[2020-09-19 18:10:41,917] p8 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO - 172.16.221.1 - - [19/Sep/2020 18:10:41] "[37mGET / HTTP/1.1[0m" 200 -
+[2020-09-19 18:10:42,338] p8 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO - 172.16.221.1 - - [19/Sep/2020 18:10:42] "[37mGET / HTTP/1.1[0m" 200 -
+[2020-09-19 18:10:42,767] p8 {/usr/local/lib/python2.7/site-packages/werkzeug/_internal.py:113} INFO - 172.16.221.1 - - [19/Sep/2020 18:10:42] "[37mGET / HTTP/1.1[0m" 200 -
