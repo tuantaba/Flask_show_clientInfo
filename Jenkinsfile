@@ -2,24 +2,35 @@
 pipeline {
     // agent { node { master } }
     agent any
-    environment {
+    // environment {
 
-    }
+    // }
     stages {
         state('Clone') {
-            echo "hello, i m clone"
+            steps {
+                echo "hello, i m clone"
+            }
+            
         }
 
         state('Build') {
-            echo "hello, i m build"
+            steps {
+                echo "hello, i m build"
+            }
+            
         }
 
         state('Test') {
-            echo "hello, i m test"
+            steps {
+                echo "hello, i m test"
+            }
         }
 
-        state('Deploy') {
-            echo "Hello, i m deploy"
+        state('Deploy') {   
+            steps {
+                echo "Hello, i m deploy"
+            }
+           
         }
 
     }
