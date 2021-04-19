@@ -28,6 +28,7 @@ pipeline {
         stage('Deploy') {   
             steps {
                 echo 'Hello, i m deploy'
+                echo "change something"
             }
         }
 
