@@ -8,29 +8,28 @@ pipeline {
     stages {
         state('Clone') {
             steps {
-                echo "hello, i m clone"
+                echo 'hello, i m clone'
             }
             
         }
 
         state('Build') {
             steps {
-                echo "hello, i m build"
+                echo 'hello, i m build'
             }
             
         }
 
         state('Test') {
             steps {
-                echo "hello, i m test"
+                echo 'hello, i m test'
             }
         }
 
         state('Deploy') {   
             steps {
-                echo "Hello, i m deploy"
+                echo 'Hello, i m deploy'
             }
-           
         }
 
     }
