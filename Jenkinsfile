@@ -29,6 +29,7 @@ pipeline {
             steps {
                 echo 'Hello, i m deploy'
                 echo "change something"
+                echo "change next next sthi"
             }
         }
 
