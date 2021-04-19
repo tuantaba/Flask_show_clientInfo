@@ -5,27 +5,27 @@ pipeline {
 
     // }
     stages {
-        state('Clone') {
+        stage('Clone') {
             steps {
                 echo 'hello, i m clone'
             }
             
         }
 
-        state('Build') {
+        stage('Build') {
             steps {
                 echo 'hello, i m build'
             }
             
         }
 
-        state('Test') {
+        stage('Test') {
             steps {
                 echo 'hello, i m test'
             }
         }
 
-        state('Deploy') {   
+        stage('Deploy') {   
             steps {
                 echo 'Hello, i m deploy'
             }
