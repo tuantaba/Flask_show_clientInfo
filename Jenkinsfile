@@ -1,21 +1,55 @@
 pipeline {
+    // agent { node { master } }
     agent any
+    // environment {
 
+    // }
     stages {
-        stage('Build') {
+        state('Clone') {
             steps {
-                echo 'Building..'
+                echo 'hello, i m clone'
+            }
+            
+        }
+
+        state('Build') {
+            steps {
+                echo 'hello, i m build'
+            }
+            
+        }
+
+        state('Test') {
+            steps {
+                echo 'hello, i m test'
             }
         }
-        stage('Test') {
+
+        state('Deploy') {   
             steps {
-                echo 'Testing..'
+                echo 'Hello, i m deploy'
             }
         }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
+
+    }
+
+    post {
+        always {
+            echo 'One way or another, I have finished'
+            // deleteDir() /* clean up our workspace */
+        }
+        success {
+            echo 'I succeeded!'
+        }
+        unstable {
+            echo 'I am unstable :/'
+        }
+        failure {
+            echo 'I failed :('
+        }
+        changed {
+            echo 'Things were different before...'
         }
     }
+
 }
